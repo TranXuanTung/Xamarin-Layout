@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">新規登録</string>
+  <string name="textview1">新規登録</string>
+  <string name="require">（必須）</string>
+  <string name="textview_screenname">スクリーンネーム</string>
+  <string name="edittext_screenname">ダミーテキストア</string>
+  <string name="textview_id">ユーザーID</string>
+  <string name="edittext_id">abcdefg</string>
+  <string name="textview_nofitication1">アプリ内で使用するスクリーンネームを 8文字以内で入力してください。</string>
+  <string name="textview_nofitication2">アプリ内で使用するID英数字20文字以内で入力してください。</string>
+  <string name="textview_warning1">※サイト内に公開されます。</string>
+  <string name="textview_nofitication3">利用規約とプライバシーポリシーを必ずご確認ください。</string>
+  <string name="textview_nofitication4">利用規約とプライバシーポリシーに</string>
+  <string name="textview_userimg">SNSで使用しているアイコン画像を使用する</string>
+  <string name="textview_privacylink1">利用規約</string>
+  <string name="textview_privacylink2">プライバシーポリシー</string>
+  <string name="button_submit">同意して登録</string>
+  <string name="btn_pulldown">さらに詳しく記入する（任意）</string>
+  <string name="textview_pulldown_imgtitle">カバー画像</string>
+  <string name="textview_pulldown_cmttittle">コメント</string>
+  <string name="textview_pulldown_generalselectiontittle">好きなジャンル</string>
+<string name="textview_pulldown_generalselectiontittle_require">（最大3っまで選択可能）</string>
+</resources>

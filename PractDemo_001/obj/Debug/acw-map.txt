@@ -1,0 +1,4 @@
+PractDemo_001.MainActivity, PractDemo_001;md54f6cd9cce1e51c432a6e2741aaa1f372.MainActivity
+PractDemo_001.MainActivity, PractDemo_001, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md54f6cd9cce1e51c432a6e2741aaa1f372.MainActivity
+PractDemo_001.MainActivity;md54f6cd9cce1e51c432a6e2741aaa1f372.MainActivity
+practdemo_001.MainActivity;md54f6cd9cce1e51c432a6e2741aaa1f372.MainActivity
