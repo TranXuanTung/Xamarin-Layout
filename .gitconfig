@@ -1,0 +1,8 @@
+[user]
+	email = drlight41@gmail.com
+	name = Tran Xuan Tung
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

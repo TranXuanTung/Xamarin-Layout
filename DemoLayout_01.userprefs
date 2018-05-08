@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="PractDemo_001\DemoLayout_01.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoLayout_02\Resources\layout\Main.axml">
+    <Files>
+      <File FileName="DemoLayout_02\Resources\layout\Main.axml" Line="29" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

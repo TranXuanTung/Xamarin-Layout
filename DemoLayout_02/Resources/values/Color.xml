@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Resources>
+  <Color name="mainColor">#282833</Color>
+  <Color name="subLevel">#3a3a48</Color>
+  <Color name="buttonColorSelcted">#5900d3</Color>
+  <Color name="buttonColorInselected">#797979</Color>
+  <Color name="layoutLevel1">#232033</Color>
+</Resources>

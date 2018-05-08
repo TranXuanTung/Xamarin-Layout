@@ -41,11 +41,42 @@ namespace DemoLayout_02
 			}
 		}
 		
+		public partial class Drawable
+		{
+			
+			// aapt resource value: 0x7f020000
+			public const int SubLevel_background = 2130837504;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int linearLayout_level1 = 2130968576;
+			// aapt resource value: 0x7f050003
+			public const int imageButton1 = 2131034115;
+			
+			// aapt resource value: 0x7f050002
+			public const int imageView1 = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int linearLayout_level0 = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int linearLayout_level1 = 2131034113;
+			
+			// aapt resource value: 0x7f050004
+			public const int linearLayout_level2 = 2131034116;
+			
+			// aapt resource value: 0x7f050005
+			public const int linearLayout_level3 = 2131034117;
 			
 			static Id()
 			{
@@ -60,8 +91,8 @@ namespace DemoLayout_02
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			// aapt resource value: 0x7f030000
+			public const int Main = 2130903040;
 			
 			static Layout()
 			{
@@ -76,8 +107,8 @@ namespace DemoLayout_02
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int app_name = 2130968576;
 			
 			static String()
 			{
