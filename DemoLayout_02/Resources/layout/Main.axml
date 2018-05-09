@@ -74,17 +74,19 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="-75dp" />
             <ImageView
-                android:src="@android:drawable/ic_menu_gallery"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:src="@drawable/IconRank"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
                 android:layout_below="@id/imgbtn_userAvatar"
                 android:id="@+id/imgv_userrankicon"
                 android:layout_marginLeft="20dp" />
             <TextView
-                android:text="@string/linearLayout_level1_ID_lbl"
+                android:text="@string/linearLayout_level1_ScreenName_lbl"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
                 android:layout_below="@id/imgbtn_userAvatar"
                 android:id="@+id/txtv_username"
                 android:layout_toRightOf="@+id/imgv_userrankicon"
@@ -95,6 +97,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
                 android:layout_below="@+id/txtv_username"
                 android:id="@+id/txtv_userid"
                 android:layout_toRightOf="@+id/imgv_userrankicon" />
@@ -116,18 +119,104 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:layout_below="@id/imgv_userrankicon"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/txtv_userid"
                 android:id="@+id/txtv_describtion"
                 android:text="@string/linearLayout_level1_MultiText" />
             <ImageView
                 android:src="@drawable/picturesourceline"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="15dp"
                 android:layout_below="@id/txtv_describtion"
-                android:id="@+id/imageView1"
+                android:id="@+id/imgv_line1"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:background="@android:color/transparent" />
+            <TextView
+                android:text="@string/linearLayout_level1_GameType_lbl"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/imgv_line1"
+                android:id="@+id/txtv_gametype"
+                android:textStyle="bold" />
+            <TextView
+                android:text="@string/linearLayout_level1_GameType_text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/txtv_gametype"
+                android:id="@+id/txtv_gametypetext"
+                android:layout_below="@id/imgv_line1"
+                android:layout_marginLeft="20dp" />
+            <ImageView
+                android:src="@drawable/picturesourceline"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/txtv_gametype"
+                android:id="@+id/imgv_line2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/transparent" />
+            <TextView
+                android:text="@string/linearLayout_level1_SNS_lbl"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgv_line2"
+                android:id="@+id/textView2"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp" />
+            <ImageButton
+                android:src="@drawable/iconline"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/textView2"
+                android:id="@+id/imgb_line"
+                android:layout_below="@id/imgv_line2"
+                android:layout_marginLeft="65dp" />
+            <ImageButton
+                android:src="@drawable/icontwitter"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/imgb_line"
+                android:id="@+id/imgb_twitter"
+                android:layout_below="@id/imgv_line2"
+                android:layout_marginLeft="20dp" />
+            <ImageButton
+                android:src="@drawable/iconfacebook"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/imgb_twitter"
+                android:id="@+id/imgb_fb"
+                android:layout_below="@id/imgv_line2"
+                android:layout_marginLeft="20dp" />
+            <ImageView
+                android:src="@drawable/picturesourceline"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/textView2"
+                android:id="@+id/imgv_line3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/transparent" />
+            <ImageButton
+                android:src="@drawable/icondiscord"
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/imgv_line3"
+                android:id="@+id/imgb_discord" />
+            <TextView
+                android:text="@string/linearLayout_level1_Discord_text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/imgb_discord"
+                android:id="@+id/textView3"
+                android:layout_below="@id/imgv_line3"
+                android:layout_marginLeft="50dp" />
         </RelativeLayout>
     </LinearLayout>
     <LinearLayout

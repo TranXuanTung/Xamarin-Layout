@@ -71,6 +71,9 @@ namespace DemoLayout02
 			public static int IconLine = 0;
 			
 			// aapt resource value: 0
+			public static int IconRank = 0;
+			
+			// aapt resource value: 0
 			public static int IconTwitter = 0;
 			
 			// aapt resource value: 0
@@ -132,13 +135,31 @@ namespace DemoLayout02
 			public static int imageButton2 = 0;
 			
 			// aapt resource value: 0
-			public static int imageView1 = 0;
-			
-			// aapt resource value: 0
 			public static int imgbtn_userAvatar = 0;
 			
 			// aapt resource value: 0
+			public static int imgb_discord = 0;
+			
+			// aapt resource value: 0
+			public static int imgb_fb = 0;
+			
+			// aapt resource value: 0
+			public static int imgb_line = 0;
+			
+			// aapt resource value: 0
+			public static int imgb_twitter = 0;
+			
+			// aapt resource value: 0
 			public static int imgv_background = 0;
+			
+			// aapt resource value: 0
+			public static int imgv_line1 = 0;
+			
+			// aapt resource value: 0
+			public static int imgv_line2 = 0;
+			
+			// aapt resource value: 0
+			public static int imgv_line3 = 0;
 			
 			// aapt resource value: 0
 			public static int imgv_userrankicon = 0;
@@ -165,7 +186,19 @@ namespace DemoLayout02
 			public static int textView1 = 0;
 			
 			// aapt resource value: 0
+			public static int textView2 = 0;
+			
+			// aapt resource value: 0
+			public static int textView3 = 0;
+			
+			// aapt resource value: 0
 			public static int txtv_describtion = 0;
+			
+			// aapt resource value: 0
+			public static int txtv_gametype = 0;
+			
+			// aapt resource value: 0
+			public static int txtv_gametypetext = 0;
 			
 			// aapt resource value: 0
 			public static int txtv_userid = 0;

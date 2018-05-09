@@ -2,7 +2,7 @@
 <xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v26</xs:documentation>
-    <xs:documentation>05/08/2018 9:28:11 AM</xs:documentation>
+    <xs:documentation>05/09/2018 8:43:39 AM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="layout">
     <xs:annotation>
@@ -165,12 +165,14 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
-            <xs:enumeration value="@string/linearLayout_level2_Discord_text" />
-            <xs:enumeration value="@string/linearLayout_level2_GameType_lbl" />
-            <xs:enumeration value="@string/linearLayout_level2_GameType_text" />
-            <xs:enumeration value="@string/linearLayout_level2_ID_lbl" />
-            <xs:enumeration value="@string/linearLayout_level2_ScreenName_lbl" />
-            <xs:enumeration value="@string/linearLayout_level2_SNS_lbl" />
+            <xs:enumeration value="@string/linearLayout_level1_ButtonText" />
+            <xs:enumeration value="@string/linearLayout_level1_Discord_text" />
+            <xs:enumeration value="@string/linearLayout_level1_GameType_lbl" />
+            <xs:enumeration value="@string/linearLayout_level1_GameType_text" />
+            <xs:enumeration value="@string/linearLayout_level1_ID_lbl" />
+            <xs:enumeration value="@string/linearLayout_level1_MultiText" />
+            <xs:enumeration value="@string/linearLayout_level1_ScreenName_lbl" />
+            <xs:enumeration value="@string/linearLayout_level1_SNS_lbl" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
