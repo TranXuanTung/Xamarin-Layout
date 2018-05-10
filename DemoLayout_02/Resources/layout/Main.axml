@@ -3,7 +3,9 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mainbackground">
+    android:background="@drawable/mainbackground"
+    android:id="@+id/layoutMain"
+    android:scrollbars="vertical">
     <LinearLayout
         android:id="@+id/linearLayout_level0"
         android:layout_width="match_parent"
@@ -24,7 +26,9 @@
                 android:background="@android:color/transparent"
                 android:layout_marginTop="10dp"
                 android:layout_alignParentLeft="true"
-                android:layout_marginLeft="20dp" />
+                android:layout_marginLeft="20dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true" />
             <TextView
                 android:text=""
                 android:textAppearance="?android:attr/textAppearanceSmall"
@@ -43,7 +47,9 @@
                 android:background="@android:color/transparent"
                 android:layout_marginTop="10dp"
                 android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp" />
+                android:layout_marginRight="20dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true" />
         </RelativeLayout>
     </LinearLayout>
     <LinearLayout
@@ -54,7 +60,7 @@
         <RelativeLayout
             android:id="@+id/layoutLevel1"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="440dp"
             android:background="@drawable/sublevelbackground">
             <ImageView
                 android:layout_width="match_parent"
@@ -66,18 +72,20 @@
                 android:contextClickable="false" />
             <ImageButton
                 android:src="@drawable/useravatar"
-                android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_below="@id/imgv_background"
                 android:id="@+id/imgbtn_userAvatar"
                 android:background="@android:color/transparent"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="-75dp" />
+                android:layout_marginTop="-85dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true" />
             <ImageView
                 android:src="@drawable/IconRank"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="5dp"
                 android:layout_below="@id/imgbtn_userAvatar"
                 android:id="@+id/imgv_userrankicon"
                 android:layout_marginLeft="20dp" />
@@ -111,8 +119,11 @@
                 android:layout_marginRight="20dp"
                 android:background="@drawable/btnbackground"
                 android:layout_marginTop="10dp"
-                android:drawableLeft="@drawable/btnpencil"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_alignParentLeft="false"
+                android:gravity="center|right"
+                android:paddingRight="15dp"
+                android:drawableLeft="@drawable/btnpencil" />
             <TextView
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:layout_width="match_parent"
@@ -167,31 +178,41 @@
                 android:layout_below="@id/imgv_line2"
                 android:id="@+id/textView2"
                 android:textStyle="bold"
-                android:layout_marginLeft="20dp" />
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="6dp" />
             <ImageButton
                 android:src="@drawable/iconline"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_toRightOf="@id/textView2"
                 android:id="@+id/imgb_line"
                 android:layout_below="@id/imgv_line2"
-                android:layout_marginLeft="65dp" />
+                android:layout_marginLeft="65dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent" />
             <ImageButton
                 android:src="@drawable/icontwitter"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_toRightOf="@id/imgb_line"
                 android:id="@+id/imgb_twitter"
                 android:layout_below="@id/imgv_line2"
-                android:layout_marginLeft="20dp" />
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent" />
             <ImageButton
                 android:src="@drawable/iconfacebook"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_toRightOf="@id/imgb_twitter"
                 android:id="@+id/imgb_fb"
                 android:layout_below="@id/imgv_line2"
-                android:layout_marginLeft="20dp" />
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent" />
             <ImageView
                 android:src="@drawable/picturesourceline"
                 android:layout_width="match_parent"
@@ -200,14 +221,19 @@
                 android:id="@+id/imgv_line3"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:background="@android:color/transparent" />
+                android:background="@android:color/transparent"
+                android:layout_marginTop="5dp" />
             <ImageButton
                 android:src="@drawable/icondiscord"
-                android:layout_width="70dp"
-                android:layout_height="20dp"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
                 android:layout_marginLeft="20dp"
                 android:layout_below="@id/imgv_line3"
-                android:id="@+id/imgb_discord" />
+                android:id="@+id/imgb_discord"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="2dp" />
             <TextView
                 android:text="@string/linearLayout_level1_Discord_text"
                 android:textAppearance="?android:attr/textAppearanceSmall"
@@ -216,7 +242,19 @@
                 android:layout_toRightOf="@id/imgb_discord"
                 android:id="@+id/textView3"
                 android:layout_below="@id/imgv_line3"
-                android:layout_marginLeft="50dp" />
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:text="PRO"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgv_userrankicon"
+                android:id="@+id/textView4"
+                android:textAlignment="center"
+                android:textSize="12"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="-20dp" />
         </RelativeLayout>
     </LinearLayout>
     <LinearLayout
@@ -235,12 +273,26 @@
         <Button
             android:text="Button"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button3" />
+            android:layout_height="fill_parent"
+            android:id="@+id/button3"
+            android:background="@android:color/transparent" />
         <Button
             android:text="Button"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button4" />
+            android:layout_height="fill_parent"
+            android:id="@+id/button4"
+            android:background="@android:color/transparent" />
+        <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button5"
+            android:background="@android:color/transparent" />
+        <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button6"
+            android:background="@android:color/transparent" />
     </LinearLayout>
 </LinearLayout>

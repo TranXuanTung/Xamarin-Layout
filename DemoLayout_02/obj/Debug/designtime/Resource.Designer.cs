@@ -129,6 +129,12 @@ namespace DemoLayout02
 			public static int button4 = 0;
 			
 			// aapt resource value: 0
+			public static int button5 = 0;
+			
+			// aapt resource value: 0
+			public static int button6 = 0;
+			
+			// aapt resource value: 0
 			public static int imageButton1 = 0;
 			
 			// aapt resource value: 0
@@ -168,6 +174,9 @@ namespace DemoLayout02
 			public static int layoutLevel1 = 0;
 			
 			// aapt resource value: 0
+			public static int layoutMain = 0;
+			
+			// aapt resource value: 0
 			public static int linearLayout_level0 = 0;
 			
 			// aapt resource value: 0
@@ -190,6 +199,9 @@ namespace DemoLayout02
 			
 			// aapt resource value: 0
 			public static int textView3 = 0;
+			
+			// aapt resource value: 0
+			public static int textView4 = 0;
 			
 			// aapt resource value: 0
 			public static int txtv_describtion = 0;
