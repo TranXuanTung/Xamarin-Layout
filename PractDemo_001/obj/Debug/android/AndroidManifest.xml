@@ -4,7 +4,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:label="@string/app_name" android:icon="@drawable/mrobm" android:name="android.app.Application" android:debuggable="true">
-    <activity android:label="Sign Up" android:name="md54f6cd9cce1e51c432a6e2741aaa1f372.MainActivity">
+    <activity android:label="Sign Up" android:name="md57245674310b6aa903b7cfe6bfbab0e70.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

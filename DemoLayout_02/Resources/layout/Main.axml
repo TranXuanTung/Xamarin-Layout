@@ -266,33 +266,33 @@
     <LinearLayout
         android:id="@+id/linearLayout_level3"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="65dp"
         android:orientation="horizontal"
-        android:background="@drawable/level1backgroundcolor"
+        android:background="@drawable/EndBarrel"
         android:layout_gravity="center">
-        <Button
-            android:text="Button"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:id="@+id/button3"
-            android:background="@android:color/transparent" />
-        <Button
-            android:text="Button"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:id="@+id/button4"
-            android:background="@android:color/transparent" />
-        <Button
-            android:text="Button"
-            android:layout_width="wrap_content"
+        <ImageView
+            android:background="@drawable/endlayouteffectxml"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:id="@+id/button5"
-            android:background="@android:color/transparent" />
-        <Button
-            android:text="Button"
-            android:layout_width="wrap_content"
+            android:id="@+id/imgv_endLayout1"
+            android:layout_weight="1" />
+        <ImageView
+            android:background="@drawable/endlayouteffectxml"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:id="@+id/button6"
-            android:background="@android:color/transparent" />
+            android:id="@+id/imgv_endLayout2"
+            android:layout_weight="1" />
+        <ImageView
+            android:background="@drawable/endlayouteffectxml"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgv_endLayout3"
+            android:layout_weight="1" />
+        <ImageView
+            android:background="@drawable/endlayouteffectxml"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgv_endLayout4"
+            android:layout_weight="1" />
     </LinearLayout>
 </LinearLayout>

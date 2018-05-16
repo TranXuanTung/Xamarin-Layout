@@ -62,6 +62,15 @@ namespace DemoLayout02
 			public static int btnpencil = 0;
 			
 			// aapt resource value: 0
+			public static int EndBarrel = 0;
+			
+			// aapt resource value: 0
+			public static int EndBarrelEffect = 0;
+			
+			// aapt resource value: 0
+			public static int endLayoutEffectXML = 0;
+			
+			// aapt resource value: 0
 			public static int IconDiscord = 0;
 			
 			// aapt resource value: 0
@@ -123,18 +132,6 @@ namespace DemoLayout02
 			public static int btn_edit = 0;
 			
 			// aapt resource value: 0
-			public static int button3 = 0;
-			
-			// aapt resource value: 0
-			public static int button4 = 0;
-			
-			// aapt resource value: 0
-			public static int button5 = 0;
-			
-			// aapt resource value: 0
-			public static int button6 = 0;
-			
-			// aapt resource value: 0
 			public static int imageButton1 = 0;
 			
 			// aapt resource value: 0
@@ -157,6 +154,18 @@ namespace DemoLayout02
 			
 			// aapt resource value: 0
 			public static int imgv_background = 0;
+			
+			// aapt resource value: 0
+			public static int imgv_endLayout1 = 0;
+			
+			// aapt resource value: 0
+			public static int imgv_endLayout2 = 0;
+			
+			// aapt resource value: 0
+			public static int imgv_endLayout3 = 0;
+			
+			// aapt resource value: 0
+			public static int imgv_endLayout4 = 0;
 			
 			// aapt resource value: 0
 			public static int imgv_line1 = 0;
