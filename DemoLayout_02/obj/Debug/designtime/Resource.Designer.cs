@@ -156,6 +156,9 @@ namespace DemoLayout02
 			public static int imgv_background = 0;
 			
 			// aapt resource value: 0
+			public static int imgv_btnpencil = 0;
+			
+			// aapt resource value: 0
 			public static int imgv_endLayout1 = 0;
 			
 			// aapt resource value: 0
@@ -282,6 +285,54 @@ namespace DemoLayout02
 			
 			// aapt resource value: 0
 			public static int linearLayout_level1_SNS_lbl = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPage1List1Artical = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPage1List1Content = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPage1List1Datetime = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPage1List2Artical = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPage1List2Content = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPage1List2Datetime = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPage1List3Artical = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPage1List3Content = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPage1List3Datetime = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPage1List4Artical = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPage1List4Content = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPage1List4Datetime = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPageTitle1 = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPageTitle2 = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPageTitle3 = 0;
+			
+			// aapt resource value: 0
+			public static int linearLayout_Level2_tabPageTitle4 = 0;
 			
 			static String()
 			{

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainbackground"
     android:id="@+id/layoutMain"
     android:scrollbars="vertical">
+<!--Layout level 0, thanh tim kiem-->
     <LinearLayout
         android:id="@+id/linearLayout_level0"
         android:layout_width="match_parent"
@@ -13,6 +15,7 @@
         android:orientation="horizontal"
         android:minWidth="25px"
         android:minHeight="25px">
+    <!--Layout long RelativeLayout thuoc Layout level 0-->
         <RelativeLayout
             android:id="@id/relativeLayout_level0"
             android:layout_width="match_parent"
@@ -52,11 +55,13 @@
                 android:adjustViewBounds="true" />
         </RelativeLayout>
     </LinearLayout>
+<!--Layout level 1, thong tin nguoi dung-->
     <LinearLayout
         android:id="@+id/linearLayout_level1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+    <!--Layout long RelativeLayout thuoc Layout level 1-->
         <RelativeLayout
             android:id="@+id/layoutLevel1"
             android:layout_width="match_parent"
@@ -109,9 +114,23 @@
                 android:layout_below="@+id/txtv_username"
                 android:id="@+id/txtv_userid"
                 android:layout_toRightOf="@+id/imgv_userrankicon" />
+            <ImageView
+                android:src="@drawable/btnpencil"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/imgv_userrankicon"
+                android:id="@+id/imgv_btnpencil"
+                android:layout_below="@id/imgbtn_userAvatar"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="280dp"
+                android:background="@drawable/btnbackground"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp" />
             <Button
                 android:text="@string/linearLayout_level1_ButtonText"
-                android:layout_width="120dp"
+                android:layout_width="80dp"
                 android:layout_height="40dp"
                 android:layout_below="@id/imgbtn_userAvatar"
                 android:id="@+id/btn_edit"
@@ -122,8 +141,7 @@
                 android:textStyle="bold"
                 android:layout_alignParentLeft="false"
                 android:gravity="center|right"
-                android:paddingRight="15dp"
-                android:drawableLeft="@drawable/btnpencil" />
+                android:paddingRight="15dp" />
             <TextView
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:layout_width="match_parent"
@@ -257,12 +275,19 @@
                 android:layout_marginTop="-20dp" />
         </RelativeLayout>
     </LinearLayout>
+<!--Layout level 2, tin tuc-->
     <LinearLayout
         android:id="@+id/linearLayout_level2"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="120dp"
         android:orientation="vertical"
-        android:background="@drawable/sublevelbackground" />
+        android:background="@drawable/sublevelbackground"
+        android:minWidth="25px"
+        android:minHeight="25px">
+    <!--tabHost-->
+    <!--Ket thuc tabHost-->
+    </LinearLayout>
+<!--Layout level 3, 4 nut chuc nang cuoi-->
     <LinearLayout
         android:id="@+id/linearLayout_level3"
         android:layout_width="match_parent"
