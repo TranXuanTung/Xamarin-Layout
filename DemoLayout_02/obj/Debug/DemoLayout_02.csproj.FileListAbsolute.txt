@@ -62,5 +62,3 @@ C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\res\dra
 C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\res\drawable\endbarreleffect.png
 C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\bin\Debug\DemoLayout02.dll.mdb
 C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\android\assets\DemoLayout02.dll.mdb
-C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\bin\Debug\DemoLayout02.dll
-C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\linksrc\DemoLayout02.dll.mdb

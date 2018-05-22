@@ -104,6 +104,18 @@ namespace DemoLayout02
 			public static int mainBackground = 0;
 			
 			// aapt resource value: 0
+			public static int pictireListInfor1pager1 = 0;
+			
+			// aapt resource value: 0
+			public static int pictireListInfor2pager1 = 0;
+			
+			// aapt resource value: 0
+			public static int pictireListInfor3pager1 = 0;
+			
+			// aapt resource value: 0
+			public static int pictireListInfor4pager1 = 0;
+			
+			// aapt resource value: 0
 			public static int picturesourceline = 0;
 			
 			// aapt resource value: 0
@@ -132,10 +144,16 @@ namespace DemoLayout02
 			public static int btn_edit = 0;
 			
 			// aapt resource value: 0
+			public static int cardView1 = 0;
+			
+			// aapt resource value: 0
 			public static int imageButton1 = 0;
 			
 			// aapt resource value: 0
 			public static int imageButton2 = 0;
+			
+			// aapt resource value: 0
+			public static int imageView = 0;
 			
 			// aapt resource value: 0
 			public static int imgbtn_userAvatar = 0;
@@ -201,6 +219,12 @@ namespace DemoLayout02
 			public static int linearLayout_level3 = 0;
 			
 			// aapt resource value: 0
+			public static int pagerTabStrip1 = 0;
+			
+			// aapt resource value: 0
+			public static int recyclerView = 0;
+			
+			// aapt resource value: 0
 			public static int relativeLayout_level0 = 0;
 			
 			// aapt resource value: 0
@@ -214,6 +238,9 @@ namespace DemoLayout02
 			
 			// aapt resource value: 0
 			public static int textView4 = 0;
+			
+			// aapt resource value: 0
+			public static int txtTitle = 0;
 			
 			// aapt resource value: 0
 			public static int txtv_describtion = 0;
@@ -245,6 +272,9 @@ namespace DemoLayout02
 			
 			// aapt resource value: 0
 			public static int Main = 0;
+			
+			// aapt resource value: 0
+			public static int title1 = 0;
 			
 			static Layout()
 			{
