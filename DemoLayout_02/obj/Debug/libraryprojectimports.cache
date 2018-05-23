@@ -16,8 +16,22 @@
     <Jar>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\8\jl\arch-core-common.jar</Jar>
     <Jar>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\9\jl\arch-lifecycle-common.jar</Jar>
   </Jars>
-  <ResolvedResourceDirectories />
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\16\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\17\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\13\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\15\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\18\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\14\jl\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
   <ResolvedAssetDirectories />
   <ResolvedEnvironmentFiles />
-  <ResolvedResourceDirectoryStamps />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\16.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\17.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\13.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\15.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\18.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\TranXuanTung\source\repos\DemoLayout_01\DemoLayout_02\obj\Debug\lp\14.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
 </Paths>

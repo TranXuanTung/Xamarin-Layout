@@ -27,7 +27,7 @@ namespace DemoLayout_02
             ActionBar.Hide();
 
             InitData();
-            recycler = FindViewById<RecyclerView>(Resource.Id.recyclerView);
+            recycler = FindViewById<RecyclerView>(Resource.Id.recycler);
             recycler.HasFixedSize = true;
             layoutManager = new LinearLayoutManager(this);
             recycler.SetLayoutManager(layoutManager);
@@ -37,9 +37,10 @@ namespace DemoLayout_02
 
         private void InitData()
         {
-            lstData.Add(new Data() {imageID = Resource.Drawable.EndBarrel, title="Clicked" });
-            lstData.Add(new Data() { imageID = Resource.Drawable.IconDiscord, title = "Clicked Dscrd" });
-            lstData.Add(new Data() { imageID = Resource.Drawable.IconFacebook, title = "Clicked Fb" });
+            lstData.Add(new Data() { imageID = Resource.Drawable.pictireListInfor1pager1, title= "@string/linearLayout_Level2_tabPage1List1Content" });
+            lstData.Add(new Data() { imageID = Resource.Drawable.pictireListInfor2pager1, title= "@string/linearLayout_Level2_tabPage1List2Content" });
+            lstData.Add(new Data() { imageID = Resource.Drawable.pictireListInfor3pager1, title= "@string/linearLayout_Level2_tabPage1List3Content" });
+            lstData.Add(new Data() { imageID = Resource.Drawable.pictireListInfor4pager1, title= "@string/linearLayout_Level2_tabPage1List4Content" });
         }
     }
 }

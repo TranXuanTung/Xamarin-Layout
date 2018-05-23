@@ -286,10 +286,12 @@
         android:minHeight="25px">
     <!--Them RecyclerView-->
         <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerView"
+            android:id="@+id/recycler"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:scrollbar="vertical" />
+            android:layout_height="400dp"
+            android:scrollbar="vertical">
+            <LinearLayout />
+        </android.support.v7.widget.RecyclerView>
     <!--Ket thuc them RecyclerView-->
         <android.support.v4.view.PagerTabStrip
             android:minWidth="25px"
@@ -297,12 +299,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/pagerTabStrip1" />
-        <android.support.v7.widget.CardView
-            android:minWidth="25px"
-            android:minHeight="25px"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/cardView1" />
     </LinearLayout>
 <!--Layout level 3, 4 nut chuc nang cuoi-->
     <LinearLayout
