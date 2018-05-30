@@ -13,46 +13,46 @@ using Android.Widget;
 
 namespace DemoLayout02.Helper
 {
-    class RecyclerViewHolder :RecyclerView.ViewHolder
-    {
-        public ImageView imageView { get; set; }
-        public TextView txtTitle { get; set; }
+    //class RecyclerViewHolder :RecyclerView.ViewHolder
+    //{
+    //    public ImageView imageView { get; set; }
+    //    public TextView txtTitle { get; set; }
 
-        public RecyclerViewHolder(View itemView):base(itemView)
-        {
-            imageView = itemView.FindViewById<ImageView>(Resource.Id.imageView);
-            txtTitle = itemView.FindViewById<TextView>(Resource.Id.txtTitle);
-        }
-    }
-    class RecyclerViewAdapter : RecyclerView.Adapter
-    {
-        private List<Data> lstData = new List<Data>();
+    //    public RecyclerViewHolder(View itemView):base(itemView)
+    //    {
+    //        imageView = itemView.FindViewById<ImageView>(Resource.Id.imageView);
+    //        txtTitle = itemView.FindViewById<TextView>(Resource.Id.txtTitle);
+    //    }
+    //}
+    //class RecyclerViewAdapter : RecyclerView.Adapter
+    //{
+    //    private List<Data> lstData = new List<Data>();
 
-        public RecyclerViewAdapter(List<Data> lstData)
-        {
-            this.lstData = lstData;
-        }
+    //    public RecyclerViewAdapter(List<Data> lstData)
+    //    {
+    //        this.lstData = lstData;
+    //    }
 
-        public override int ItemCount
-        {
-            get
-            {
-                return lstData.Count;
-            }
-        }
+    //    public override int ItemCount
+    //    {
+    //        get
+    //        {
+    //            return lstData.Count;
+    //        }
+    //    }
 
-        public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
-        {
-            RecyclerViewHolder viewHolder = holder as RecyclerViewHolder;
-            viewHolder.imageView.SetImageResource(lstData[position].imageID);
-            viewHolder.txtTitle.Text = lstData[position].title;
-        }
+    //    public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
+    //    {
+    //        RecyclerViewHolder viewHolder = holder as RecyclerViewHolder;
+    //        viewHolder.imageView.SetImageResource(lstData[position].imageID);
+    //        viewHolder.txtTitle.Text = lstData[position].title;
+    //    }
 
-        public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
-        {
-            LayoutInflater inflater = LayoutInflater.From(parent.Context);
-            View itemView = inflater.Inflate(Resource.Layout.title1, parent, false);
-            return new RecyclerViewHolder(itemView);
-        }
-    }
+    //    public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
+    //    {
+    //        LayoutInflater inflater = LayoutInflater.From(parent.Context);
+    //        View itemView = inflater.Inflate(Resource.Layout.title1, parent, false);
+    //        return new RecyclerViewHolder(itemView);
+    //    }
+    //}
 }

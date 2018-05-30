@@ -279,26 +279,31 @@
     <LinearLayout
         android:id="@+id/linearLayout_level2"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="300dp"
         android:orientation="vertical"
         android:background="@drawable/sublevelbackground"
         android:minWidth="25px"
         android:minHeight="25px">
-    <!--Them RecyclerView-->
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recycler"
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:scrollbar="vertical">
-            <LinearLayout />
-        </android.support.v7.widget.RecyclerView>
-    <!--Ket thuc them RecyclerView-->
-        <android.support.v4.view.PagerTabStrip
+    <!--Them Viewpager-->
+        <android.support.v4.view.ViewPager
             android:minWidth="25px"
             android:minHeight="25px"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/pagerTabStrip1" />
+            android:layout_height="70dp"
+            android:id="@+id/pager" />
+    <!--Ket thuc them Viewpager-->
+    <!--Them RecyclerView-->
+    <!--
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/recycler"
+            android:scrollbar="vertical">
+            <LinearLayout />
+        </android.support.v7.widget.RecyclerView>
+        -->
+    <!--Ket thuc them RecyclerView-->
     </LinearLayout>
 <!--Layout level 3, 4 nut chuc nang cuoi-->
     <LinearLayout

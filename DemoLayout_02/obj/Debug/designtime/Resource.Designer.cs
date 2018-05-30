@@ -24,6 +24,11 @@ namespace DemoLayout02
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::DemoLayout02.Resource.Attribute.actionBarSize;
+		}
+		
 		public partial class Animation
 		{
 			
@@ -3464,7 +3469,19 @@ namespace DemoLayout02
 			public static int notification_main_column_container = 2131492940;
 			
 			// aapt resource value: 0
-			public static int pagerTabStrip1 = 0;
+			public static int pager = 0;
+			
+			// aapt resource value: 0
+			public static int pagerTab1 = 0;
+			
+			// aapt resource value: 0
+			public static int pagerTab2 = 0;
+			
+			// aapt resource value: 0
+			public static int pagerTab3 = 0;
+			
+			// aapt resource value: 0
+			public static int pagerTab4 = 0;
 			
 			// aapt resource value: 2131492941
 			public static int parallax = 2131492941;
@@ -3486,9 +3503,6 @@ namespace DemoLayout02
 			
 			// aapt resource value: 2131492947
 			public static int radio = 2131492947;
-			
-			// aapt resource value: 0
-			public static int recycler = 0;
 			
 			// aapt resource value: 0
 			public static int relativeLayout_level0 = 0;
@@ -3994,6 +4008,9 @@ namespace DemoLayout02
 			// aapt resource value: 0
 			public static int title1 = 0;
 			
+			// aapt resource value: 0
+			public static int titleLayoutLevel2 = 0;
+			
 			// aapt resource value: 2131689532
 			public static int tooltip = 2131689532;
 			
@@ -4264,6 +4281,18 @@ namespace DemoLayout02
 			
 			// aapt resource value: 2132082727
 			public static int status_bar_notification_info_overflow = 2132082727;
+			
+			// aapt resource value: 0
+			public static int viewPagerTab1 = 0;
+			
+			// aapt resource value: 0
+			public static int viewPagerTab2 = 0;
+			
+			// aapt resource value: 0
+			public static int viewPagerTab3 = 0;
+			
+			// aapt resource value: 0
+			public static int viewPagerTab4 = 0;
 			
 			static String()
 			{

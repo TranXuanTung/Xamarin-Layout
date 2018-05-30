@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:drawable="@drawable/viewPagerTabClicked"
+        android:state_pressed="true" />
+  <item android:drawable="@drawable/viewPagerTabNormal"
+        android:state_normal="true" />
+</Selector>

@@ -12,10 +12,10 @@ using Android.Widget;
 
 namespace DemoLayout02.Helper
 {
-    class Data
-    {
-        public int imageID { get; set; }
+    //class Data
+    //{
+    //    public int imageID { get; set; }
 
-        public string title { get; set; }
-    }
+    //    public string title { get; set; }
+    //}
 }

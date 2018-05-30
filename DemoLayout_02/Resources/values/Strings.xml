@@ -15,19 +15,24 @@
   <string name="linearLayout_Level2_tabPageTitle2">フォロー</string>
   <string name="linearLayout_Level2_tabPageTitle3">フォロワー</string>
   <string name="linearLayout_Level2_tabPageTitle4">大会フォロー</string>
-  <!--text noi dung cua list 1 cua pager 1-->
+  <!--text tab viewPager Layout level 2-->
+  <string name="viewPagerTab1">履歴</string>
+  <string name="viewPagerTab2">フォロー</string>
+  <string name="viewPagerTab3">フォロワー</string>
+  <string name="viewPagerTab4">大会フォロー</string>
+  <!--text noi dung cua list 1 cua Layout level 2 pager 1-->
   <string name="linearLayout_Level2_tabPage1List1Datetime">2017/12/25</string>
   <string name="linearLayout_Level2_tabPage1List1Artical">ユーザー名やタイトルが入る</string>
   <string name="linearLayout_Level2_tabPage1List1Content">あいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあ…</string>
-  <!--text noi dung cua list 2 cua pager 1-->
+  <!--text noi dung cua list 2 cua Layout level 2 pager 1-->
   <string name="linearLayout_Level2_tabPage1List2Datetime">2017/12/25</string>
   <string name="linearLayout_Level2_tabPage1List2Artical">エレクトロニック・スポーツ大会…</string>
   <string name="linearLayout_Level2_tabPage1List2Content">あいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあ…</string>
-  <!--text noi dung cua list 3 cua pager 1-->
+  <!--text noi dung cua list 3 cua Layout level 2 pager 1-->
   <string name="linearLayout_Level2_tabPage1List3Datetime">2017/12/25</string>
   <string name="linearLayout_Level2_tabPage1List3Artical">ユーザー名やタイトルが入る</string>
   <string name="linearLayout_Level2_tabPage1List3Content">あいうえおカキクケコあいうえおカキクケコあいうえおカキクケコあ…</string>
-  <!--text noi dung cua list 4 cua pager 1-->
+  <!--text noi dung cua list 4 cua Layout level 2 pager 1-->
   <string name="linearLayout_Level2_tabPage1List4Datetime">2017/12/25</string>
   <string name="linearLayout_Level2_tabPage1List4Artical">ユーザー名やタイトルが入る</string>
   <string name="linearLayout_Level2_tabPage1List4Content">マップの通り、かなり大きなステージ2つに各500席ずつの観戦席が用意され、FPSや格闘ゲーム、スポーツ・アクションの他、スマホ</string>
