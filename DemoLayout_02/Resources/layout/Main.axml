@@ -279,7 +279,7 @@
     <LinearLayout
         android:id="@+id/linearLayout_level2"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="@drawable/sublevelbackground"
         android:minWidth="25px"
@@ -290,7 +290,8 @@
             android:minHeight="25px"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:id="@+id/pager" />
+            android:id="@+id/pager"
+            android:background="@android:color/transparent" />
     <!--Ket thuc them Viewpager-->
     <!--Them RecyclerView-->
     <!--

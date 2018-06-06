@@ -24,11 +24,6 @@ namespace DemoLayout02
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public static void UpdateIdValues()
-		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::DemoLayout02.Resource.Attribute.actionBarSize;
-		}
-		
 		public partial class Animation
 		{
 			
@@ -3074,6 +3069,18 @@ namespace DemoLayout02
 			// aapt resource value: 0
 			public static int userAvatar = 0;
 			
+			// aapt resource value: 0
+			public static int viewPagerTabClicked = 0;
+			
+			// aapt resource value: 0
+			public static int viewPagerTabHighLight = 0;
+			
+			// aapt resource value: 0
+			public static int viewPagerTabNormal = 0;
+			
+			// aapt resource value: 0
+			public static int viewPagerTabsEffect = 0;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -3174,9 +3181,6 @@ namespace DemoLayout02
 			// aapt resource value: 2131492892
 			public static int cancel_action = 2131492892;
 			
-			// aapt resource value: 0
-			public static int cardView1 = 0;
-			
 			// aapt resource value: 2131492893
 			public static int center = 2131492893;
 			
@@ -3268,7 +3272,7 @@ namespace DemoLayout02
 			public static int imageButton2 = 0;
 			
 			// aapt resource value: 0
-			public static int imageView = 0;
+			public static int imageView1 = 0;
 			
 			// aapt resource value: 0
 			public static int imgbtn_userAvatar = 0;
@@ -3317,6 +3321,12 @@ namespace DemoLayout02
 			
 			// aapt resource value: 2131492921
 			public static int info = 2131492921;
+			
+			// aapt resource value: 0
+			public static int info1 = 0;
+			
+			// aapt resource value: 0
+			public static int info1_text = 0;
 			
 			// aapt resource value: 2131492922
 			public static int italic = 2131492922;
@@ -3505,6 +3515,9 @@ namespace DemoLayout02
 			public static int radio = 2131492947;
 			
 			// aapt resource value: 0
+			public static int recycler = 0;
+			
+			// aapt resource value: 0
 			public static int relativeLayout_level0 = 0;
 			
 			// aapt resource value: 2131492948
@@ -3688,7 +3701,7 @@ namespace DemoLayout02
 			public static int transition_transform = 2131493003;
 			
 			// aapt resource value: 0
-			public static int txtTitle = 0;
+			public static int txtv_date = 0;
 			
 			// aapt resource value: 0
 			public static int txtv_describtion = 0;
@@ -3698,6 +3711,12 @@ namespace DemoLayout02
 			
 			// aapt resource value: 0
 			public static int txtv_gametypetext = 0;
+			
+			// aapt resource value: 0
+			public static int txtv_shortinfo = 0;
+			
+			// aapt resource value: 0
+			public static int txtv_title = 0;
 			
 			// aapt resource value: 0
 			public static int txtv_userid = 0;
@@ -3710,6 +3729,9 @@ namespace DemoLayout02
 			
 			// aapt resource value: 2131493005
 			public static int up = 2131493005;
+			
+			// aapt resource value: 0
+			public static int viewPager1 = 0;
 			
 			// aapt resource value: 2131493006
 			public static int view_offset_helper = 2131493006;
