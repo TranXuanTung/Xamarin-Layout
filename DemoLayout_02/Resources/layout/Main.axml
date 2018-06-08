@@ -294,16 +294,12 @@
             android:background="@android:color/transparent" />
     <!--Ket thuc them Viewpager-->
     <!--Them RecyclerView-->
-    <!--
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_below="@+id/recycler"
-            android:scrollbar="vertical">
-            <LinearLayout />
-        </android.support.v7.widget.RecyclerView>
-        -->
+            android:scrollbar="vertical" />
     <!--Ket thuc them RecyclerView-->
     </LinearLayout>
 <!--Layout level 3, 4 nut chuc nang cuoi-->

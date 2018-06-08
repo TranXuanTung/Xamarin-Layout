@@ -3040,6 +3040,9 @@ namespace DemoLayout02
 			public static int notify_panel_notification_icon_bg = 2131296360;
 			
 			// aapt resource value: 0
+			public static int pagerLine = 0;
+			
+			// aapt resource value: 0
 			public static int pictireListInfor1pager1 = 0;
 			
 			// aapt resource value: 0
@@ -3272,7 +3275,28 @@ namespace DemoLayout02
 			public static int imageButton2 = 0;
 			
 			// aapt resource value: 0
+			public static int imageButton_pictirelistinfor1pager1 = 0;
+			
+			// aapt resource value: 0
+			public static int imageButton_pictirelistinfor2pager2 = 0;
+			
+			// aapt resource value: 0
+			public static int imageButton_pictirelistinfor3pager1 = 0;
+			
+			// aapt resource value: 0
+			public static int imageButton_pictirelistinfor4pager1 = 0;
+			
+			// aapt resource value: 0
 			public static int imageView1 = 0;
+			
+			// aapt resource value: 0
+			public static int imageView2 = 0;
+			
+			// aapt resource value: 0
+			public static int imageView3 = 0;
+			
+			// aapt resource value: 0
+			public static int imageView4 = 0;
 			
 			// aapt resource value: 0
 			public static int imgbtn_userAvatar = 0;
@@ -3327,6 +3351,21 @@ namespace DemoLayout02
 			
 			// aapt resource value: 0
 			public static int info1_text = 0;
+			
+			// aapt resource value: 0
+			public static int info2 = 0;
+			
+			// aapt resource value: 0
+			public static int info2_text = 0;
+			
+			// aapt resource value: 0
+			public static int info3_text = 0;
+			
+			// aapt resource value: 0
+			public static int info4 = 0;
+			
+			// aapt resource value: 0
+			public static int info4_text = 0;
 			
 			// aapt resource value: 2131492922
 			public static int italic = 2131492922;
@@ -3661,6 +3700,42 @@ namespace DemoLayout02
 			// aapt resource value: 0
 			public static int textView4 = 0;
 			
+			// aapt resource value: 0
+			public static int textView_Level2_tabPage1List1Artical = 0;
+			
+			// aapt resource value: 0
+			public static int textView_Level2_tabPage1List1Content = 0;
+			
+			// aapt resource value: 0
+			public static int textView_Level2_tabPage1List1Datetime = 0;
+			
+			// aapt resource value: 0
+			public static int textView_Level2_tabPage1List2Artical = 0;
+			
+			// aapt resource value: 0
+			public static int textView_Level2_tabPage1List2Content = 0;
+			
+			// aapt resource value: 0
+			public static int textView_Level2_tabPage1List2Datetime = 0;
+			
+			// aapt resource value: 0
+			public static int textView_Level2_tabPage1List3Artical = 0;
+			
+			// aapt resource value: 0
+			public static int textView_Level2_tabPage1List3Content = 0;
+			
+			// aapt resource value: 0
+			public static int textView_Level2_tabPage1List3Datetime = 0;
+			
+			// aapt resource value: 0
+			public static int textView_Level2_tabPage1List4Artical = 0;
+			
+			// aapt resource value: 0
+			public static int textView_Level2_tabPage1List4Content = 0;
+			
+			// aapt resource value: 0
+			public static int textView_Level2_tabPage1List4Datetime = 0;
+			
 			// aapt resource value: 2131492989
 			public static int text_input_password_toggle = 2131492989;
 			
@@ -3701,9 +3776,6 @@ namespace DemoLayout02
 			public static int transition_transform = 2131493003;
 			
 			// aapt resource value: 0
-			public static int txtv_date = 0;
-			
-			// aapt resource value: 0
 			public static int txtv_describtion = 0;
 			
 			// aapt resource value: 0
@@ -3711,12 +3783,6 @@ namespace DemoLayout02
 			
 			// aapt resource value: 0
 			public static int txtv_gametypetext = 0;
-			
-			// aapt resource value: 0
-			public static int txtv_shortinfo = 0;
-			
-			// aapt resource value: 0
-			public static int txtv_title = 0;
 			
 			// aapt resource value: 0
 			public static int txtv_userid = 0;
